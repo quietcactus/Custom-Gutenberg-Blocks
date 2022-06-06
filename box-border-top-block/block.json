@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "kt-blocks/box-border-top",
+  "version": "0.1.0",
+  "title": "Border Top Box",
+  "category": "kt-blocks",
+  "icon": "cactus custom-dashicon",
+  "description": "Box with a top border",
+  "supports": {
+    "html": false
+  },
+  "attributes" : {
+    "borderColor": {
+      "type": "string",
+      "default": "#6c757d"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#e9ecef"
+    }
+  },
+  "parent": ["kt-blocks/grid-block-3-col"],
+  "textdomain": "kt-blocks",
+  "editorScript": "file:./index.js"
+}

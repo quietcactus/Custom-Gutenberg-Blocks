@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "kt-blocks/box-rounded",
+  "version": "0.1.0",
+  "title": "Rounded Box",
+  "category": "kt-blocks",
+  "icon": "cactus custom-dashicon",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "parent": ["kt-blocks/grid-block-3-col"],
+  "textdomain": "kt-blocks",
+  "editorScript": "file:./index.js"
+}

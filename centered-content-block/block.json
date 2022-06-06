@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "kt-blocks/centered-content-block",
+  "version": "0.1.0",
+  "title": "Centered Content",
+  "category": "kt-blocks",
+  "icon": "cactus custom-dashicon",
+  "description": "Centered content Section Block",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "kt-blocks",
+  "editorScript": "file:./index.js"
+}

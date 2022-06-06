@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "kt-blocks/grid-block-3-col",
+  "version": "1.0.0",
+  "title": "Grid Block",
+  "category": "kt-blocks",
+  "icon": "cactus custom-dashicon",
+  "description": "Grid Block with three columns",
+  "attributes" : {
+    "mediaId": {
+      "type": "number",
+      "default": 0
+    },
+    "mediaUrl": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "kt-blocks",
+  "editorScript": "file:./index.js"
+}
